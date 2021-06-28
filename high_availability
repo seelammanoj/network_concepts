@@ -1,0 +1,18 @@
+learning topics
+1. LoadBalancer
+2. Forward Proxy
+3. Reverse Proxy
+
+1. LoadBalancer: Load balancing is defined as the methodical and efficient distribution of network or application traffic across multiple servers in a server farm.
+Each load balancer sits between client devices and backend sefile:///home/manoj/Downloads/forward_proxy_vs_reverse.pngrvers, receiving and then distributing incoming requests to any available server capable of fulfilling them.
+
+2. Foward Proxy vs reverse Proxy
+   
+  Forward Proxy: sits between the client and the server
+  A forward proxy is the most common form of a proxy server and is generally used to pass requests from an isolated, private network to the Internet through a firewall. Using a forward proxy, requests from an isolated network, or intranet, can be rejected or allowed to pass through a firewall.
+
+3. Reverse Proxy: A reverse proxy server is a type of proxy server that typically sits behind the firewall in a private network and directs client requests to the appropriate backend server. A reverse proxy provides an additional level of abstraction and control to ensure the smooth flow of network traffic between clients and servers.
+
+In a simple terms:
+forward proxy helps to forward the traffic from internet network to the outside network
+reverse proxy helps to forward the traffic from the outside network to the internat network
